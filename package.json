@@ -1,0 +1,14 @@
+{
+  "name": "game-of-life-cli",
+  "version": "0.0.0",
+  "description": "A Node.js CLI application of Conway's Game of Life that supports specifying the display strings of alive and dead cells.",
+  "bin": "./bin/cli.js",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "string-width": "^4.2.3"
+  },
+  "devDependencies": {
+    "standard": "^16.0.4"
+  }
+}
