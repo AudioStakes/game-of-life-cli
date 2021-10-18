@@ -1,9 +1,18 @@
 {
   "name": "game-of-life-cli",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A Node.js CLI application of Conway's Game of Life that supports specifying the display strings of alive and dead cells.",
   "bin": "./bin/cli.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AudioStakes/game-of-life-cli.git"
+  },
+  "author": "AudioStakes",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AudioStakes/game-of-life-cli/issues"
+  },
+  "homepage": "https://github.com/AudioStakes/game-of-life-cli#readme",
   "dependencies": {
     "minimist": "^1.2.5",
     "string-width": "^4.2.3"
