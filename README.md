@@ -18,12 +18,12 @@ Usage: game-of-life-cli [options]
 A Node.js CLI application of Conway's Game of Life that supports specifying the display strings of alive and dead cells.
 
 Options:
-  -c, --columnCount <number> Specify the number of columns on the board (default: 15)
-  -r, --rowCount <number>    Specify the number of rows on the board (default: 15)
-  -t, --time <number>        Specify the time interval on the order of milliseconds to step to the next generation (default: 500)
-  -a, --alive <string>       Specify the display string of alive cells (default: '■')
-  -d, --dead <string>        Specify the display string of dead cells (default: '□')
-  -h, --help                 Display help for command
+  -c, --columns <number> Specify the number of columns on the board (default: 15)
+  -r, --rows <number>    Specify the number of rows on the board (default: 15)
+  -t, --time <number>    Specify the time interval on the order of milliseconds to step to the next generation (default: 500)
+  -a, --alive <string>   Specify the display string of alive cells (default: '■')
+  -d, --dead <string>    Specify the display string of dead cells (default: '□')
+  -h, --help             Display help for command
 ```
 
 ## Demo
